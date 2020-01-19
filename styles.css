@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+html,body{
+//background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+//background-image: url('images/city.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.select_btn{
+border-left: solid 6px #ff7c5c;/*¶ü*/
+color: #FFFFFF;
+background-color: #696969;
+//width: 180px;
+width: 10rem;
+}
+
+.select_btn:hover{
+border-left: solid 6px #AEFF5E;/*¶ü*/
+color: #000000;
+background-color: white;
+}
+
+.new_reg_btn{
+color: black;
+}
+
+.new_reg_btn:hover{
+color: black;
+background-color: white;
+border-color: white;
+}
+
+.card-header h3{
+color: white;
+}
+
+
+.cp_bgpattern06 {
+	background-size: 80px 80px;
+	background-image:
+	 linear-gradient(rgba(215,204,200,.7) 1%, rgba(215,204,200,.7) 1%, transparent 1%,
+	  transparent 99%, rgba(215,204,200,.7) 99%, rgba(215,204,200,.7) 100%),
+	 linear-gradient(90deg, rgba(215,204,200,.7) 1%, rgba(215,204,200,.7) 1%, transparent 1%,
+	  transparent 99%, rgba(215,204,200,.7) 99%, rgba(215,204,200,.7) 100%),
+	 linear-gradient(transparent, transparent 25%, rgba(215,204,200,.4) 25%, rgba(215,204,200,.4) 26%, transparent 26%,
+	  transparent 50%, rgba(215,204,200,.4) 50%, rgba(215,204,200,.4) 51%, transparent 51%,
+	  transparent 75%, rgba(215,204,200,.4) 75%, rgba(215,204,200,.4) 76%, transparent 76%, transparent 100%),
+	 linear-gradient(90deg, transparent, transparent 25%, rgba(215,204,200,.4) 25%, rgba(215,204,200,.4) 26%, transparent 26%,
+	  transparent 50%, rgba(215,204,200,.4) 50%, rgba(215,204,200,.4) 51%, transparent 51%,
+	  transparent 75%, rgba(215,204,200,.4) 75%, rgba(215,204,200,.4) 76%, transparent 76%, transparent 100%);
+}
